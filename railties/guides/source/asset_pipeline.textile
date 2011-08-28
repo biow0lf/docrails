@@ -273,7 +273,7 @@ Rails comes bundled with a rake task to compile the manifests to files on disc. 
 The rake task is:
 
 <plain>
-rake assets:precompile
+bundle exec rake assets:precompile
 </plain>
 
 Capistrano (v2.8.0+) has a recipe to handle this in deployment. Add the following line to +Capfile+:
